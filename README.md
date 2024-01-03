@@ -1,35 +1,19 @@
-# Weather
+# A weather app.
 
-Quickly access accurate weather information with a clean, modern and user-friendly design.
+A Weather Web App.
 
-<img src="thumbnail.png" alt="Weather" width="100%">
+This app is deployed on Vercel: https://weather-app-laurence.vercel.app/
 
-## Installation
+## APIs Used
 
-Clone the repository and install dependencies using npm:
+- [Open-Meteo](https://open-meteo.com/)
 
-`npm install`
+- [Nominatim](https://nominatim.org/)
 
-## Usage
+## Icons Used
 
-Start the development server:
+- [Meteocons](https://github.com/basmilius/weather-icons)
 
-`npm run dev`
+## Built With
 
-This will open the app in your default browser.
-
-Build the app for production:
-
-`npm run build`
-
-Preview the production build:
-
-`npm run preview`
-
-## Contributing
-
-If you find any issues or have suggestions for improvement, please open an issue or submit a pull request on GitHub.
-
-## License
-
-This project is licensed under the MIT License.
+- [Next.js](https://nextjs.org/)

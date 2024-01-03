@@ -1,31 +1,30 @@
 {
-  "name": "weather",
+  "name": "weather-app",
+  "version": "0.1.0",
   "private": true,
-  "version": "1.0.0",
-  "type": "module",
-  "description": "Quickly access accurate weather information with a clean, modern and user-friendly design.",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pekkiriscim/weather.git"
+  "dependencies": {
+    "@types/node": "18.14.1",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "dayjs": "^1.11.7",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.2.1",
+    "next": "13.2.1",
+    "nookies": "^2.5.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "4.9.5"
   },
-  "author": "Mustafa Pekkirişci",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pekkiriscim/weather/issues"
-  },
-  "homepage": "https://github.com/pekkiriscim/weather#readme",
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
-    "sass": "^1.59.2",
-    "vite": "^4.1.0",
-    "vite-plugin-static-copy": "^0.13.1"
+    "@iconify/react": "^4.1.0"
   },
-  "browserslist": [
-    "> 0%"
-  ]
+  "volta": {
+    "node": "18.14.2"
+  }
 }
